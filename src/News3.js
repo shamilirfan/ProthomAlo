@@ -1,11 +1,12 @@
-function News3() {
+import { Link } from "react-router-dom";
 
+function News3() {
   return (
     <div className='flex w-full h-full justify-center '>
       <div className='w-2/12 h-full'></div>
       <div className='flex w-8/12 h-full '>
         <div className="flex flex-col w-3/12 h-full">
-          <p className="text-1xl hover:text-blue-600 font-bold mt-[20%]">Coronavirus Worldwide</p>
+          <Link to="2nd"><p className="text-1xl hover:text-blue-600 font-bold mt-[20%]">Coronavirus Worldwide</p></Link>
           <img src="https://images.prothomalo.com/prothomalo-english%2Fimport%2Fmedia%2F2018%2F06%2F09%2F6fc02267b772eb63a23de0b42f790555-1.jpg?rect=179%2C0%2C1350%2C900&auto=format%2Ccompress&fmt=webp&format=webp&w=300&dpr=1.0" className="w-11/12 h-2/6 mt-5" />
           <p className="text-1xl hover:text-blue-600 font-bold mt-2">Bangladesh registers one death,<br />438 Covid cases in 24 hrs</p>
           <p className="mt-2">The number of detected coronavirus in the country, according to the governm,

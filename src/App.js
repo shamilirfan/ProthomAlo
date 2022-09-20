@@ -8,6 +8,7 @@ import News3 from './News3';
 import Home from './Home';
 import SecondPage from './SecondPage';
 import ThardPage from './ThardPage';
+import FullPage from "./FullPage";
 
 
 function App() {
@@ -23,8 +24,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/2nd" element={<SecondPage />} />
-        <Route path="/3rd" element={<ThardPage />} />
+        <Route path="/:id" element={<FullPage />} />
       </Routes>
 
     </div>

@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 
 function News4() {
-    return (
-        <div className='flex w-full h-full justify-center '>
+  return (
+    <div className='flex w-full h-full justify-center '>
       <div className='w-2/12 h-full'></div>
       <div className='flex w-8/12 h-full '>
         <div className="flex flex-col w-3/12 h-full">
@@ -41,7 +42,7 @@ function News4() {
       <div className='w-2/12 h-full'></div>
     </div>
 
-    );
+  );
 }
 
 export default News4;
