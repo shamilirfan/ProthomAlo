@@ -4,10 +4,8 @@ import './App.css';
 import Header from './Header';
 import Header2 from './Header2';
 import Navber from './Navber';
-import News3 from './News3';
+import Footer from "./Footer";
 import Home from './Home';
-import SecondPage from './SecondPage';
-import ThardPage from './ThardPage';
 import FullPage from "./FullPage";
 
 
@@ -27,6 +25,7 @@ function App() {
         <Route path="/:id" element={<FullPage />} />
       </Routes>
 
+      <Footer />
     </div>
   );
 }
