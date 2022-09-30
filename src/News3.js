@@ -11,7 +11,7 @@ function News3() {
           <p className="text-1xl hover:text-blue-600 font-bold mt-2">Bangladesh registers one death,<br />438 Covid cases in 24 hrs</p>
           <p className="mt-2">The number of detected coronavirus in the country, according to the governm,
             rose to 2,016,583 on Thursday as 438 more cases were reported</p>
-          <p className="mt-10">8 minutes ago</p>
+          <p className="mt-10">10 years ago</p>
           <hr></hr>
         </div>
         <div className="flex flex-col w-3/12 h-full">
