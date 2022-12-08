@@ -118,5 +118,4 @@ export default [
         p10: "“The two countries have resolved many outstanding issues and we hope that all outstanding issues, including Teesta water-sharing treaty, would be concluded at an early date,” she said in a joint statement with PM Narendra Modi.",
         img4: "https://tpc.googlesyndication.com/simgad/11886436064207034381"
     }
-
 ];

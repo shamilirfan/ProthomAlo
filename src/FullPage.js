@@ -4,7 +4,9 @@ import News4 from './News4';
 
 function FullPage() {
     const { id } = useParams();
-    const { img1, p0, p1, p2, p3, p4, p5, p6, p7, p8, img2, img3, p9, p10, img4 } = data[id];
+    const {
+        img1, p0, p1, p2, p3, p4, p5, p6, p7, p8, img2, img3, p9, p10, img4
+    } = data[id];
 
     return (
         <div>

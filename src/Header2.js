@@ -1,5 +1,3 @@
-
-
 function Header2nd() {
     return (
         <div className="flex flex-row w-full h-[3%]">
