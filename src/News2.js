@@ -11,7 +11,7 @@ function News2() {
                     <p className="text-1xl hover:text-blue-600 font-bold mt-[17%] ml-3">EU backs away from Russian gas<br />price cap as members divided</p>
                     <p className="mt-3 ml-3">The European Union is set to unveil plans on Wednesday to skim off wind
                         profits from energy companies and impose cuts in electricity usage across the
-                        bloc.</p>
+                        bloc.Since Moscow abandoned its main bastion in the northeast on Saturday.</p>
                 </div>
                 <div className="flex flex-col w-3/12 h-full">
                     <p className="text-1xl hover:text-blue-600 font-bold mt-[17%] ml-3">Ukraine stabilises counter-<br />offensive gains, Biden sees<br />long haul</p>
@@ -22,6 +22,7 @@ function News2() {
                     <p className="text-1xl hover:text-blue-600 font-bold mt-[17%] ml-3">Dhaka and its neighbourhood<br />Gas crisis hits hard kitchens,<br />industries</p>
                     <p className="mt-3 ml-3">Titas Gas sources said complaints are being filed from almost all
                         areas of Dhaka while the most are coming from Mohammadpur, Mirpur, Paikpara.</p>
+                    <div className="h-11"></div>
                 </div>
             </div>
             <div className='w-2/12 h-full bg-red-400'></div>
